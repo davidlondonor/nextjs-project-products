@@ -88,20 +88,20 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/products/[id].js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/product/[id].js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/products/[id].js":
-/*!********************************!*\
-  !*** ./pages/products/[id].js ***!
-  \********************************/
+/***/ "./pages/product/[id].js":
+/*!*******************************!*\
+  !*** ./pages/product/[id].js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\nconst ProductItem = () => {\n  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_1__[\"useRouter\"])();\n  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, \"Este es la pagina solo pro prueba de producto:\", router.query.id);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ProductItem);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9wcm9kdWN0cy8uanM/YzE3YiJdLCJuYW1lcyI6WyJQcm9kdWN0SXRlbSIsInJvdXRlciIsInVzZVJvdXRlciIsInF1ZXJ5IiwiaWQiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQ0E7O0FBRUEsTUFBTUEsV0FBVyxHQUFHLE1BQU07QUFDeEIsUUFBTUMsTUFBTSxHQUFHQyw2REFBUyxFQUF4QjtBQUNBLFNBQU8scUhBQWlERCxNQUFNLENBQUNFLEtBQVAsQ0FBYUMsRUFBOUQsQ0FBUDtBQUNELENBSEQ7O0FBS2VKLDBFQUFmIiwiZmlsZSI6Ii4vcGFnZXMvcHJvZHVjdHMvW2lkXS5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L3JvdXRlclwiO1xuXG5jb25zdCBQcm9kdWN0SXRlbSA9ICgpID0+IHtcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XG4gIHJldHVybiA8PkVzdGUgZXMgbGEgcGFnaW5hIHNvbG8gcHJvIHBydWViYSBkZSBwcm9kdWN0bzp7cm91dGVyLnF1ZXJ5LmlkfTwvPjtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFByb2R1Y3RJdGVtO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/products/[id].js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\nconst ProductItem = () => {\n  const {\n    query: {\n      productId\n    }\n  } = Object(next_router__WEBPACK_IMPORTED_MODULE_1__[\"useRouter\"])();\n  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, \"Este es la pagina solo pro prueba de producto:\", router.query.id);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ProductItem);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9wcm9kdWN0Ly5qcz8zZDk2Il0sIm5hbWVzIjpbIlByb2R1Y3RJdGVtIiwicXVlcnkiLCJwcm9kdWN0SWQiLCJ1c2VSb3V0ZXIiLCJyb3V0ZXIiLCJpZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7QUFDQTs7QUFFQSxNQUFNQSxXQUFXLEdBQUcsTUFBTTtBQUN4QixRQUFNO0FBQ0pDLFNBQUssRUFBRTtBQUFFQztBQUFGO0FBREgsTUFFRkMsNkRBQVMsRUFGYjtBQUdBLFNBQU8scUhBQWlEQyxNQUFNLENBQUNILEtBQVAsQ0FBYUksRUFBOUQsQ0FBUDtBQUNELENBTEQ7O0FBT2VMLDBFQUFmIiwiZmlsZSI6Ii4vcGFnZXMvcHJvZHVjdC9baWRdLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSBcIm5leHQvcm91dGVyXCI7XG5cbmNvbnN0IFByb2R1Y3RJdGVtID0gKCkgPT4ge1xuICBjb25zdCB7XG4gICAgcXVlcnk6IHsgcHJvZHVjdElkIH0sXG4gIH0gPSB1c2VSb3V0ZXIoKTtcbiAgcmV0dXJuIDw+RXN0ZSBlcyBsYSBwYWdpbmEgc29sbyBwcm8gcHJ1ZWJhIGRlIHByb2R1Y3RvOntyb3V0ZXIucXVlcnkuaWR9PC8+O1xufTtcblxuZXhwb3J0IGRlZmF1bHQgUHJvZHVjdEl0ZW07XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/product/[id].js\n");
 
 /***/ }),
 
