@@ -13,5 +13,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next export & next export -o build"
-  }
+  },
+  "keywords": [],
+  "author": "David Londoño",
+  "license": "Mit"
 }
