@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-project",
+  "version": "1.0.0",
+  "description": "Amazing project!",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export & next export -o build"
+  }
+}
