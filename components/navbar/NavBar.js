@@ -1,12 +1,17 @@
 import React from "react";
 import About from "../../pages/about";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
     <nav>
       <menu>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
       </menu>
     </nav>
   );
